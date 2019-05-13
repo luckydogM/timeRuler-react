@@ -1,0 +1,62 @@
+.am-calendar .single-month .row + .row {
+	margin-top: 0;
+}
+
+.am-calendar .single-month .row .cell .date-wrapper .date {
+  font-size: 14px;
+  width: 36px;
+  height: 36px;
+}
+
+.am-calendar .single-month .month-title {
+	padding: 0px 0 0px 15px;
+}
+.load-tip {
+	display: none;
+}
+.info {
+	display: none;
+}
+.info.date-selected {
+	display: block;
+}
+
+.am-calendar .content {
+	position: static;
+
+}
+.am-calendar .week-panel {
+	border: none;
+}
+
+.am-calendar .week-panel .cell {
+	color: #999;
+}
+
+.months .single-month:first-child .month-title{
+	display: none;
+}
+.am-calendar .mask.animate {
+	display: none;
+	background: transparent;
+	z-index: -1;
+}
+
+.am-calendar .single-month .row .cell .date-wrapper {
+	height: 36px;
+	margin-bottom: 0;
+}
+
+.am-calendar .single-month .row .cell .date-wrapper .left, .am-calendar .single-month .row .cell .date-wrapper .right {
+	height: 36px;
+}
+
+.am-calendar .single-month .row .cell .info {
+	position: absolute;
+	bottom: 0;
+	color: #fff;
+}
+.am-calendar .single-month .row .cell .date-selected {
+	color: #fff;
+	align-items: flex-start;
+}
